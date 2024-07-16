@@ -1,0 +1,161 @@
+repo_name: Huntemall/stablediffusion-dev
+report_id: 6eb4504e174c7acd4a269b43751c7a9e
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T09:54:37+00:00'
+requested_by: hardmaru
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/environment.yaml
+  detection_source: environment.yaml
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: OpenCV
+  description: Open Source Computer Vision Library
+  website_url: http://opencv.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.23.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/environment.yaml
+  detection_source: environment.yaml
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: PyTorch
+  description: A deep learning framework that puts Python first
+  website_url: http://pytorch.org/
+  version: 1.12.1
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/8171/YYpjkbVn_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/environment.yaml
+  detection_source: environment.yaml
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: Streamlit
+  description: A Python app framework built specifically for Machine Learning and
+    Data Science teams
+  website_url: https://streamlit.io
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Lawrence Neal
+  last_updated_on: 2022-11-24 05:31:44.000000000 Z
+- name: imageio
+  description: Library for reading and writing a wide range of image
+  package_url: https://pypi.org/project/imageio
+  version: 2.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20258/default_c011fd31f7e9af58e2e3e8a82a6acdf8662ecdb6.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/project/opencv-python
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: torch
+  description: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  package_url: https://pypi.org/project/torch
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20038/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/Huntemall/stablediffusion-dev/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: Robin Rombach
+  last_updated_on: 2022-11-24 00:22:28.000000000 Z
